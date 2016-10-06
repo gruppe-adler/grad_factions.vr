@@ -1,1 +1,1 @@
-GRAD_Loadout_Chosen_Prefix = "BWFleck";
+GRAD_Loadout_Chosen_Prefix = "ModerateRebels";
