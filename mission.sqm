@@ -23,14 +23,13 @@ addons[]=
 {
 	"A3_Characters_F",
 	"A3_Structures_F_Mil_Fortification",
-	"A3_Characters_F_Exp",
-	"Unlocked_Uniforms"
+	"A3_Characters_F_Exp"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=4;
+		items=3;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -51,11 +50,6 @@ class AddonsMetaData
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
-		};
-		class Item3
-		{
-			className="Unlocked_Uniforms";
-			name="Unlocked_Uniforms";
 		};
 	};
 };
