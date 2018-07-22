@@ -1,5 +1,23 @@
-["BLU_F", "BwTrop"] call GRAD_Loadout_fnc_FactionSetLoadout;
-["OPF_F", "ModerateRebels"] call GRAD_Loadout_fnc_FactionSetLoadout;
-["IND_F", "USUCP"] call GRAD_Loadout_fnc_FactionSetLoadout;
+["BLU_F", "UsmcVietnam"] call GRAD_Loadout_fnc_FactionSetLoadout;
+/* ["OPF_F", "RuFlora"] call GRAD_Loadout_fnc_FactionSetLoadout; */
+["IND_F", "IsraeliDefenseForce"] call GRAD_Loadout_fnc_FactionSetLoadout;
 
-{_x disableAI "MOVE" } forEach allUnits;
+
+{
+    if (local _x && !isPlayer _x) then {
+        _x disableAI "ALL";
+    };
+    false
+} count allUnits;
+
+
+["unit",{
+    [{
+        params [["_newUnit",objNull],["_oldUnit",objNull]];
+
+        if (!isNil {_newUnit getVariable "bis_fnc_moduleRemoteControl_owner"}) exitWith {};
+
+        [zeusModule1] remoteExec ["unassignCurator",2,false];
+        [_newUnit,zeusModule1] remoteExec ["assignCurator",2,false];
+    },_this,5] call CBA_fnc_waitAndExecute;
+}] call CBA_fnc_addPlayerEventHandler;
