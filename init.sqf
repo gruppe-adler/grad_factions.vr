@@ -1,6 +1,4 @@
-["BLU_F", "UsmcVietnam"] call GRAD_Loadout_fnc_FactionSetLoadout;
-/* ["OPF_F", "RuFlora"] call GRAD_Loadout_fnc_FactionSetLoadout; */
-["IND_F", "IsraeliDefenseForce"] call GRAD_Loadout_fnc_FactionSetLoadout;
+execVM "SET_LOADOUTS.sqf";
 
 
 {

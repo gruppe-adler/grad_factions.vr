@@ -1,5 +1,7 @@
 # grad_factions.vr
 
-Factions for grad-loadout
+Development mission for grad-factions.
+
+Edit `SET_LOADOUTS.sqf`.
 
 http://www.gruppe-adler.de
