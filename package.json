@@ -8,6 +8,7 @@
   "description": "Test mission for grad-loadout and grad-factions combined",
   "version": "0.1.3",
   "dependencies": {
-    "grad-factions": ">0.0.1"
+    "grad-factions": ">0.0.1",
+    "grad-factions-tvt": ">0.0.1"
   }
 }
