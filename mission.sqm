@@ -12,11 +12,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=44;
+		nextID=46;
 	};
 	class Camera
 	{
-		pos[]={709.55347,87.75119,2845.2419};
+		pos[]={694.6933,87.75119,2888.0911};
 		dir[]={0.022653157,-0.49095449,-0.87093711};
 		up[]={0.012769481,0.87110388,-0.49093598};
 		aside[]={-0.99970251,-2.460074e-007,-0.02600228};
@@ -612,7 +612,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={711.53046,5,2792.1809};
+				position[]={711.53003,5,2792.1809};
 			};
 			name="zeusModule1";
 			id=107;
@@ -653,7 +653,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
