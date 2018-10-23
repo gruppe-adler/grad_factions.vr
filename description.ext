@@ -18,5 +18,6 @@ class Loadouts {
         #define SUPPRESSORS
 
         #include "node_modules\grad-factions\loadouts.hpp"
+        #include "node_modules\grad-factions-tvt\loadouts.hpp"
     };
 };
